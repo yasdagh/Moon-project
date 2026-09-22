@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding:32.5px 0;
+}
+
+
+
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list ul{
+    
+    display: flex;
+    flex-wrap:wrap;
+    gap:60px;
+}
+.icons ul{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 24px;
+
+}
+
+.collections{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    text-align:center;
+
+}
+.collections .collection{
+width: calc((100% - 90px) / 4);
+}
+.collections img{
+    width:100%;
+
+}
+.collections h2{
+    margin-top: 15px;
+    color: #3a3845;
+    text-transform:uppercase    ;
+
+}  
